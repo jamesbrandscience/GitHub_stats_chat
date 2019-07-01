@@ -1,13 +1,10 @@
-##Introduction to Git and GitHub
+# NZILBB_xaringan
 
-#Introduction to Git and GitHub
+Minimalist xaringan theme for html presentations using NZILBB style/colors
 
-(Stats-chat 4th July, 2019)
+## Modified from the RU theme, originally created by Joseph Casillas
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Example
 
-`test`
+Example presentation [here](https://jamesbrandscience.github.io/NZILBB_Xaringan/#1). 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-`test`
