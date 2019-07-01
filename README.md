@@ -6,5 +6,4 @@ Minimalist xaringan theme for html presentations using NZILBB style/colors
 
 ## Example
 
-Example presentation [here](https://jamesbrandscience.github.io/NZILBB_Xaringan/#1). 
-
+Example presentation [here](https://jamesbrandscience.github.io/NZILBB_Xaringan/#1).
