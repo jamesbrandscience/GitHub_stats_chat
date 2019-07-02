@@ -119,7 +119,7 @@ This gives anybody who is accessing your repository a reference point to go to, 
 
 <img src="Images/Repository.png" alt="Your local repository could look like this" width="400"/>
 
-###**Step 2:** Commiting changes
+###**Step 2:** Commiting changes {-}
 
 <mark>What is a commit?</mark>
 
@@ -129,11 +129,24 @@ Therefore, `commits` are different to just saving the file as you go along, it i
 
 Every `commit` you make has to be accompanied by a description, which tells you and anybody else what that commit was for, e.g. 'Working lmer code', these are a helpful way for you to understand the project as it develops.
 
-###**Step 3:** Pushing changes
+###**Step 3:** Pushing changes {-}
 
 <mark>What is pushing?</mark>
 
-You might make several `commits` before you are ready to actually publish those changes to your GitHub repository
+You might make several `commits` before you are ready to actually publish those changes to your GitHub repository, when you are ready to do this, you `push` them. Think of this as you making changes to the files on your computer, you have made some commits, but now your supervisor needs to see what you have been working on and edit the files. When you are ready for your files to go out to GitHub, you need to push them. They will still be on your computer, but now the version you pushed will be stored on GitHub.
+
+###**Step 3.5:*** Branches {-}
+
+<mark>What is a branch?</mark>
+
+So far, we have only thought about a linear workflow
+
+
+###**Step 4:** Pulling changes {-}
+
+<mark>What is pulling?</mark>
+
+Once you have pushed your changes to GitHub, they can now be accessed by your collaborators. They will have your pushed version on their computer now.
 
 
 ###Terminology
