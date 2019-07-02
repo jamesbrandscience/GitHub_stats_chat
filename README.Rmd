@@ -139,14 +139,21 @@ You might make several `commits` before you are ready to actually publish those 
 
 <mark>What is a branch?</mark>
 
-So far, we have only thought about a linear workflow
+So far, we have only thought about a linear workflow, where you commit, push and pull as your project develops - this is all done in the `Master` branch, i.e. one main version of the repository which is undergoing changes by you and your collaborators.
+
+But what if you want to make exploratory changes that do not affect this `Master` branch? You can create a new branch! This will come off from the `Master` and allow you to modify as much as you want to (still commiting and pushing), but without it affecting your safe `Master` version.
+
+Think of this in terms of the cake recipe file, you have a cake recipe that is good so you have it in your `Master` branch, but what if you want to try using `vegan butter` instead of normal `butter` in your recipe, you can make a new branch, try the changes and:
+
+- If you like those changes you can `pull` them back into the `master` branch
+- If you don't like them, then your vegan butter recipe can sit there without anybody ever knowing about it
 
 
 ###**Step 4:** Pulling changes {-}
 
 <mark>What is pulling?</mark>
 
-Once you have pushed your changes to GitHub, they can now be accessed by your collaborators. They will have your pushed version on their computer now.
+Once you have pushed your changes to GitHub, they can now be accessed by your collaborators. They will have your pushed version on their computer now and can make changes themselves. Once they have committed their changes, they have to push them back to GitHub.
 
 
 ###Terminology
