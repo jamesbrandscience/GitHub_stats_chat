@@ -51,7 +51,9 @@ If you use `Dropbox` or `Google Docs` or just your `hard drive` to store and man
 
 - How often do you back up your projects to a secure online location? If you just rely on your computer or an external hard drive, these are normally dependent on you having an up-to-date version of your files to work on, which could be a problem if they break, can not be accessed by others, are not backed up. You no longer have to deal with cluttered folders containing several versions of the one file. When you use Git you can back up files with just a click, even adding a description of what you have done since the last changes.
 
-![Multiple versions of a manuscript from different collaborators](Images/Folder_unorganised.png)
+<img src="Images/Folder_unorganised.png" alt="Multiple versions of a manuscript from different collaborators" width="400"/>
+
+<!-- ![Multiple versions of a manuscript from different collaborators](Images/Folder_unorganised.png) -->
 
 - Git lets you have a `master` file that you and your collaborators can work on, making edits and changes whenever, but keeping just the one file and a `version history` so you can look back efficiently on what has changed.
 
@@ -87,7 +89,7 @@ To use GitHub you need to have an account.
 
 Go to [https://github.com/join](https://github.com/join) and follow the steps.
 
-It is worthwhile to sign up using your `@uc.ac.nz` email address, this will let you access GitHub Education benefits (I think), but we can come to that another time.
+It is worthwhile to sign up using your `@canterbury.ac.nz` email address, this will let you access GitHub Education benefits (I think), but we can come to that another time.
 
 <img src="Images/GitHub_sign_up.png" alt="Signing up for an account" width="400"/>
 
@@ -107,7 +109,7 @@ A `repository` (or `repo`) is where all your project files belong.
 
 If you have a folder on your computer called `PhD` and a sub-folder called `Experiment 1`, this sub-folder should be a repository and contain everything that is relevant to your experiment 1 project, e.g. more sub-folders called `data`, `analysis`, `write_up`.
 
-Repositories are the first step in the GitHub workflow, everything inside of the repository will be tracked by Git.
+Repositories are the first step in the GitHub workflow, everything inside of the repository on your computer will be tracked by Git. Then when you are ready, you can publish the contents of the repository on your GitHub (cloud) version.
 
 Good practice is to have a `README.md` file in your repository.
 
@@ -115,9 +117,23 @@ Good practice is to have a `README.md` file in your repository.
 
 This gives anybody who is accessing your repository a reference point to go to, it should clearly explain what the repository is for, what it contains, and any other important information to help you or anybody else understand more about it.
 
+<img src="Images/Repository.png" alt="Your local repository could look like this" width="400"/>
+
 ###**Step 2:** Commiting changes
 
-<mark>What is a `commit`?</mark>
+<mark>What is a commit?</mark>
+
+If you are working on a file, you will likely save that file many times whilst working on it. Once the file gets to a stage that you want a version officially stored, you have to `commit` it. Think of this as "I have done a lot of work on this file and it is at a stage that I am happy with for now", at this point you would `commit` to having that version stored. It is like a formal announcement of your willingness to save that version.
+
+Therefore, `commits` are different to just saving the file as you go along, it is like reaching a milestone in the development of the file, e.g. you managed to get your mixed-effects models working for your experiment 1 analysis.
+
+Every `commit` you make has to be accompanied by a description, which tells you and anybody else what that commit was for, e.g. 'Working lmer code', these are a helpful way for you to understand the project as it develops.
+
+###**Step 3:** Pushing changes
+
+<mark>What is pushing?</mark>
+
+You might make several `commits` before you are ready to actually publish those changes to your GitHub repository
 
 
 ###Terminology
