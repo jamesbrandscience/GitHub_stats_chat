@@ -67,58 +67,6 @@ If you use `Dropbox` or `Google Docs` or just your `hard drive` to store and man
 
 - **BUT...** it largely depends on the willingness of others to use and understand it.
 
-#Using GitHub
-
----
-
-**\*\*\*Please do these steps prior to the session if possible\*\*\***
-
----
-
-For a more comprehensive tutorial on these steps, as well as Git and GitHub more generally, see:
-
-- [GitHub's help page](https://help.github.com/en/articles/signing-up-for-a-new-github-account)
-
-- [Jenny Bryan's tutorial](https://happygitwithr.com/github-acct.html)
-
-- [Danielle Navarro's tutorial](https://github.com/cskemp/chdss2018/blob/master/day2_dataanalysis/git-notes.md)
-
-- [Daniel van Strien's tutorial](https://programminghistorian.org/en/lessons/getting-started-with-github-desktop#register-for-a-github-account)
-
-###Getting a GitHub account {-}
-
-To use GitHub you need to have an account.
-
-Go to [https://github.com/join](https://github.com/join) and follow the steps.
-
-It is worthwhile to sign up using your `@canterbury.ac.nz` email address, this will let you access GitHub Education benefits (I think), but we can come to that another time.
-
-<img src="Images/GitHub_sign_up.png" alt="Signing up for an account" width="400"/>
-
-<!-- ![Signing up for an account](Images/GitHub_sign_up.png) -->
-
-###Installing GitHub Desktop {-}
-
-Once you have an account, you can now download the GitHub Desktop app from:
-
-[https://desktop.github.com](https://desktop.github.com)
-
-Once you have installed it, it will ask you to `Sign into GitHub.com`, click this option and input your username and password.
-
-<img src="Images/GitHub_desktop.png" alt="Desktop" width="400"/>
-
-###Installing Git {-}
-
-To my knowledge, installing GitHub Desktop should also install Git for you.
-
-But this may be an older version of Git, so if you get keen and want to use a shell to manage your Git projects, you might want to install a more recent version, if so you can download it at [https://git-scm.com](https://git-scm.com). As we are focussing on the basics in this tutorial, the GitHub Desktop version should be fine.
-
-<!-- - **Easy option (Mac)**<br/> -->
-<!-- In GitHub Desktop, go to GitHub Desktop in the top bar and cick `Install Command Line Tool`<br/><br/> -->
-<!-- If you see a message saying `The command line tool has been installed at...` you already have Git installed. -->
-
-<!-- <img src="Images/Command_line_tool_mac.png" alt="On a Mac" width="200"/> -->
-
 #GitHub's workflow and terminology
 
 Using GitHub will be a little bit different from how you might normally manage a project. So it is worth introducing some of the basic ways GitHub is used and what certain words _mean_.
@@ -202,6 +150,218 @@ If you see a repository on GitHub you like/want, you can `clone` it to your comp
 - **Forking**<br/>
 This is similar to `cloning` but when the repository is updated, your computer version will update too
 
-#Your first repository
+#Using GitHub
+
+---
+
+**\*\*\*Please do these steps prior to the session if possible\*\*\***
+
+---
+
+For a more comprehensive tutorial on these steps, as well as Git and GitHub more generally, see:
+
+- [GitHub's help page](https://help.github.com/en/articles/signing-up-for-a-new-github-account)
+
+- [Jenny Bryan's tutorial](https://happygitwithr.com/github-acct.html)
+
+- [Danielle Navarro's tutorial](https://github.com/cskemp/chdss2018/blob/master/day2_dataanalysis/git-notes.md)
+
+- [Daniel van Strien's tutorial](https://programminghistorian.org/en/lessons/getting-started-with-github-desktop#register-for-a-github-account)
+
+###Getting a GitHub account {-}
+
+To use GitHub you need to have an account.
+
+Go to [https://github.com/join](https://github.com/join) and follow the steps.
+
+It is worthwhile to sign up using your `@canterbury.ac.nz` email address, this will let you access GitHub Education benefits (I think), but we can come to that another time.
+
+<img src="Images/GitHub_sign_up.png" alt="Signing up for an account" width="400"/>
+
+<!-- ![Signing up for an account](Images/GitHub_sign_up.png) -->
+
+###Installing GitHub Desktop {-}
+
+Once you have an account, you can now download the GitHub Desktop app from:
+
+[https://desktop.github.com](https://desktop.github.com)
+
+Once you have installed it, it will ask you to `Sign into GitHub.com`, click this option and input your username and password.
+
+<img src="Images/GitHub_desktop.png" alt="Desktop" width="400"/>
+
+###Installing Git {-}
+
+To my knowledge, installing GitHub Desktop should also install Git for you.
+
+But this may be an older version of Git, so if you get keen and want to use a shell to manage your Git projects, you might want to install a more recent version, if so you can download it at [https://git-scm.com](https://git-scm.com). As we are focussing on the basics in this tutorial, the GitHub Desktop version should be fine.
+
+<!-- - **Easy option (Mac)**<br/> -->
+<!-- In GitHub Desktop, go to GitHub Desktop in the top bar and cick `Install Command Line Tool`<br/><br/> -->
+<!-- If you see a message saying `The command line tool has been installed at...` you already have Git installed. -->
+
+<!-- <img src="Images/Command_line_tool_mac.png" alt="On a Mac" width="200"/> -->
+
+#Your first GitHub repository
+
+Now you have an idea of what Git and GitHub do, let us use GitHub Desktop to do some of those things.
+
+We will:
+
+- Create a repository for a cake recipe
+- Add a `.rmd` file to that repository
+- `commit` the changes
+- `edit` the `.rmd` file to make it a bit better
+- `commit` again and `push` the changes to GitHub
+
+###**Step 1:** Creating a repository {-}
+
+As a first step let us create a folder to store our GitHub projects in...
+
+**Create a new folder called `GitHub` somewhere sensible on your computer**
+
+Then, in GitHub Desktop, click `File` - `New Repository...`
+
+<img src="Images/1_New_repo.png" width="400"/>
+
+Then, fill out the information box, see image below (don't forget to tick the `Initialize this respository with a README` box)
+
+<img src="Images/2_Create_new_repo.png" width="600"/>
+
+If we check in our `GitHub` folder, there should now be a new folder called `Cake_recipe`, with a file called `README.md`
+
+<img src="Images/3_cake_recipe_folder.png" width="600"/>
+
+If we go back to GitHub Desktop, we can now `publish` our repository to our GitHub by pressing the `Publish repository` button
+
+<img src="Images/4_publish_GitHub.png" width="600"/>
+
+Fill out the information so your repository has a name and basic description...
+
+<img src="Images/5_publish_information.png" width="600"/>
+
+Once this is done, we can now see our repository on GitHub by clicking on the `View on GitHub` button
+
+Ta da...
+
+Your first (pretty awful) repository is live and living on the GitHub
+
+<img src="Images/6_GitHub_live_repo.png" width="600"/>
+
+###**Step 2:** Adding files, commiting and pushing {-}
+
+As this is a pretty awful repository, we need to add something to it...
+
+Let us add an `.rmd` file with a cake recipe in, you can do this in RStudio by going to `File` > `New File` > `R Markdown`
+
+Then write a recipe like the one below
+
+Then, **save the file in your `cake_recipe` folder**
+
+<img src="Images/7_cake_recipe_rmd.png" width="600"/>
+
+If we go back to GitHub Desktop, we will now see something interesting has happened...
+
+<img src="Images/8_GitHub_new_file.png" width="600"/>
+
+Git has realised you have added a new file to your folder (local repository) and that is why you see lots of green...
+
+Let us `commit` this new change as it feels like a milestone...
+
+In the bottom left corner, there will be a little box that looks like the one below, add a title and description to your commit, then click the `Commit to master` button
+
+<img src="Images/9_commit_message.png" width="600"/>
+
+Before we `push` this to GitHub, let us go back to the `.rmd` file and make another change, make sure you `save` the file again...
+
+<img src="Images/10_update_rmd.png" width="600"/>
+
+Now, return to GitHub Desktop, you will see it has again noticed your changes, this time there is red and green...
+
+The red text is the part of the file that has been modified, the green part is for the changes you have made, cool!
+
+**Write another `commit` message and `Commit to master` again**
+
+<img src="Images/11_GitHub_changed_file.png" width="600"/>
+
+Now we are ready to `push` these changes...
+
+Click on the `push to origin` button and then after it is complete, your update will be live on GitHub
+
+<img src="Images/12_push_to_origin.png" width="600"/>
+
+###**Step 3:** Adding a collaborator and pulling {-}
+
+This still a pretty bad cake recipe, so maybe we need some help...
+
+We can add a collaborator to the repository who will be able to access and edit the files and improve our recipe hopefully
+
+In GitHub Desktop click on the `View on GitHub` button again, which should open up the repository in your web browser
+
+Once you are there, click on the `settings` button
+
+<img src="Images/13_settings_button.png" width="600"/>
+
+From here you can click on the `Collaborators` button located at the side, if you know the GitHub username of the person you to collaborate with enter it in the box and then click the `Add collaborator` button, which will send them an invite...
+
+As Dan is such a good baker, I want him to help out with this recipe
+
+<img src="Images/14_add_collaborator.png" width="600"/>
+
+When Dan accepts the invite, he can now edit the files...
+
+He has changed our `cake_recipe.rmd` file, but to see these changes we need to `fetch` them...
+
+Click on the `fetch origin` button in the centre of the top panel of GitHub Desktop (where it says `Pull origin` in the image below), this will `fetch` the changes made by Dan
+
+Once these have been fetched, we can click on the `pull origin` button, which will update the files on your computer
+
+<img src="Images/15_pulling_changes.png" width="600"/>
+
+Ta da...
+
+If we now open the `cake_recipe.rmd` file in RStudio, we can see the updated recipe from Dan
+
+<img src="Images/16_Cake_recipe_Dan.png" width="600"/>
+
+#Bonus: GitHub Pages
+
+One of the great things about GitHub is that you can host your files online. This is particularly useful when we have `.html` files from an `.rmd` document. Instead of sending the raw file out to people, who then have to download and open it, you have it on a personal GitHub site page url, meaning all you have to do is click to access it.
+
+The really nice thing about this is that when you push your changes to your GitHub repository, that `.html` file, which will be on a url, will be updated too!
+
+To do this we can generate a `.html` of our `cake_recipe.rmd` file
+
+In RStudio, navigate to the `cake_recipe.rmd` file and click on the `knit` button
+
+In our folder there should now be a file called `cake_recipe.html`
+
+As this is a Git folder, we should `commit` the changes and `push` them to GitHub
+
+Return to the repository on GitHub.com and click on the `Settings` button again
+
+Scroll down to where it says `GitHub Pages`
+
+You will need to change the `Source` to allow your repository to be hosted as a GitHub Pages site
+
+Where it says `None`, change it to `master branch`
+
+This will refresh the page and now your repository has a cool url
+
+<img src="Images/17_GitHub_pages.png" width="600"/>
+
+If you click on the blue link though, you will get a 404 error, this is because there is not actually anything useful at this site...
+
+But we do have a `.html` file in our repository, lets try adding `Cake_recipe.html` to the end of the url (or whatever your `.html` file was called)
+
+Now we should be able to view it on the internet!
+
+<img src="Images/18_url_example.png" width="600"/>
+
+This is exactly how this tutorial is being hosted, as a file in a GitHub repository, that I am editing on my laptop, comitting changes, pushing the changes and hosting it as a GitHub page.
+
+If you notice any spelling issues, want to make this tutorial better,  please let me know and I will add you as a collaborator!
+
+
 
 
